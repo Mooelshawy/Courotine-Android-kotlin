@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/nav_trending">
+    <fragment
+        android:id="@+id/nav_trending"
+        android:label="@string/menu_home"
+        android:name="com.omran.coroutineandroidkotlin.ui.trending.TrendingMovies"
+        tools:layout="@layout/fragment_home"
+        >
+        <action
+            android:id="@+id/action_nav_trending_to_detailsTrending3"
+            app:destination="@id/detailsTrending" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_popular"
+        android:name="com.omran.coroutineandroidkotlin.ui.popular.PopularMovies"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_top_rated"
+        android:name="com.omran.coroutineandroidkotlin.ui.top_rated.TopRatedMovies"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/detailsTrending"
+        android:name="com.omran.coroutineandroidkotlin.details.trending.DetailsTrending"
+        android:label="DetailsTrending"
+        tools:layout="@layout/fragment_details_trending"
+        >
+        <action
+            android:id="@+id/action_detailsTrending_to_nav_trending2"
+            app:destination="@id/nav_trending" />
+    </fragment>
+
+</navigation>

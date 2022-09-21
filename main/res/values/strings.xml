@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CoroutineAndroidKotlin</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Trending Movies</string>
+    <string name="menu_gallery">Popular Movies</string>
+    <string name="menu_slideshow">Top Rated Movies</string>
+
+    <string name="todo">TODO</string>
+    <string name="logo">Logo</string>
+
+    <string name="placeholder">--</string>
+    <string name="vote_count" formatted="false">%s reviews</string>
+    <string name="category_now_playing">Now Playing</string>
+    <string name="category_popular">Popular</string>
+    <string name="category_top_rated">Top Rated</string>
+    <string name="category_upcoming">Upcoming</string>
+    <string name="view_all">View All</string>
+</resources>
